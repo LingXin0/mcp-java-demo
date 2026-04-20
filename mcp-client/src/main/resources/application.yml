@@ -6,7 +6,7 @@ spring:
     name: mcp-client
   ai:
     dashscope:
-      api-key: ${DASHSCOPE_API_KEY:sk-661e1dd43c1d46eb81b70fa94ff873fc}
+      api-key: ${DASHSCOPE_API_KEY:sk-****}
       chat:
         options:
           model: ${AI_MODEL:qwen-max}

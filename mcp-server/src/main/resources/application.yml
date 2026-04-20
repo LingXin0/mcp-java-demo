@@ -11,14 +11,14 @@ spring:
 
   ai:
     dashscope:
-      api-key: ${DASHSCOPE_API_KEY:sk-661e1dd43c1d46eb81b70fa94ff873fc}
+      api-key: ${DASHSCOPE_API_KEY:sk-****}
       chat:
         options:
           model: ${AI_MODEL:qwen-max}
     mcp:
       server:
         enabled: true
-        name: xdclass-mcp-server
+        name: Darius-mcp-server
         version: 1.0.0
         type: SYNC
         #        区别说明：
